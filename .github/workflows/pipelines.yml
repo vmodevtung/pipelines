@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hello, world!
+      run: cat ~/.ssh/id_rsa.pub
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
